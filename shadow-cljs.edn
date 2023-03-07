@@ -1,7 +1,7 @@
 ;; shadow-cljs configuration
 {:deps {:aliases [:shadow-cljs-build :cider]}
 
- :dev-http {8080 "public"}
+ :dev-http {8080 "dist/public"}
 
  :builds {:main {:target :node-script
                  :output-to "dist/main.js"
